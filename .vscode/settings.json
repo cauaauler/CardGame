@@ -1,0 +1,5 @@
+{
+    "dotnet.defaultSolution": "Card Game.sln",
+    "git.ignoreLimitWarning": true,
+    "dotnet.preferCSharpExtension": true
+}

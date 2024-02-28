@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda14a0c07c9a6046bff008d2e9219ce, type: 3}
+  m_Name: 015
+  m_EditorClassIdentifier: 
+  textCardOnly: 
+  sprite: 1
+  cardName: Pai
+  cardID: 0
+  dialogue: Agora preciso trabalhar
+  leftQuote: Bom trabalho
+  rightQuote: "At\xE9 logo"
+  leftCard: {fileID: 11400000, guid: 8f2adea325ee10e42a1fb34a3d3358d5, type: 2}
+  rightCard: {fileID: 11400000, guid: 8f2adea325ee10e42a1fb34a3d3358d5, type: 2}
+  item: {fileID: 0}
+  itemGapName: 
+  labyrinthName: 

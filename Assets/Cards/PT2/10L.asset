@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda14a0c07c9a6046bff008d2e9219ce, type: 3}
+  m_Name: 10L
+  m_EditorClassIdentifier: 
+  textCardOnly: 
+  sprite: 6
+  cardName: Professor
+  cardID: 0
+  dialogue: "N\xE3o sei quem \xE9"
+  leftQuote: 'E Charles Babbage ? '
+  rightQuote: E quanto a Babbage ?
+  leftCard: {fileID: 11400000, guid: 8a48d318ce940344186ad6150aa100ec, type: 2}
+  rightCard: {fileID: 11400000, guid: 8a48d318ce940344186ad6150aa100ec, type: 2}
+  item: {fileID: 0}
+  itemGapName: 
+  labyrinthName: 

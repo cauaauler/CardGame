@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda14a0c07c9a6046bff008d2e9219ce, type: 3}
+  m_Name: 16_0
+  m_EditorClassIdentifier: 
+  textCardOnly: 
+  sprite: 11
+  cardName: Professor
+  cardID: 0
+  dialogue: Tudo bem ?
+  leftQuote: Procuro Marie
+  rightQuote: Procuro Pierre
+  leftCard: {fileID: 11400000, guid: 0a2427cb7e26513488ca6e2648571072, type: 2}
+  rightCard: {fileID: 11400000, guid: ab01f23bc6e0fd94d8d743c4d8d631ff, type: 2}
+  item: {fileID: 0}
+  itemGapName: 
+  labyrinthName: 

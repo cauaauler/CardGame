@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda14a0c07c9a6046bff008d2e9219ce, type: 3}
+  m_Name: 65
+  m_EditorClassIdentifier: 
+  textCardOnly: 
+  sprite: 12
+  cardName: Cientista
+  cardID: 0
+  dialogue: "Pode esperar at\xE9 as 19:00 ?"
+  leftQuote: Posso
+  rightQuote: "Se voc\xEA diz..."
+  leftCard: {fileID: 11400000, guid: 55b50d73e51a5ee4ea7aa5fbd34a6da0, type: 2}
+  rightCard: {fileID: 11400000, guid: 55b50d73e51a5ee4ea7aa5fbd34a6da0, type: 2}
+  item: {fileID: 0}
+  itemGapName: 
+  labyrinthName: 

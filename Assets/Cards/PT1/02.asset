@@ -13,15 +13,12 @@ MonoBehaviour:
   m_Name: 02
   m_EditorClassIdentifier: 
   textCardOnly: 
-  sprite: 1
-  cardName: Pai
-  cardID: 0
-  dialogue: Acordada ?
-  leftQuote: Sim
-  rightQuote: Estou
+  sprite: 7
+  cardName: 
+  dialogue: "<color=red>MUDAR, E TAMB\xC9M MUDAR A IMAGEM SEM NADA ALI NA ESQUERDA</color>
+    Voc\xEA desce e entra dentro do carro"
+  leftQuote: 
+  rightQuote: 
   leftCard: {fileID: 11400000, guid: 16cba25eec4c6844385863a7248e65bd, type: 2}
   rightCard: {fileID: 11400000, guid: 16cba25eec4c6844385863a7248e65bd, type: 2}
-  item: {fileID: 0}
-  itemGapName: 
-  labyrinthName: 
-  parentCard: {fileID: 11400000, guid: c8fde0d858fcbac4287e0647578b9b53, type: 2}
+  textGlossary: teste2

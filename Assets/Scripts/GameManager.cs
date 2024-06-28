@@ -39,7 +39,7 @@ public class GameManager : MonoBehaviour
     public TMP_Text textCardOnly;
     public SpriteRenderer quoteBackground;
    
-    //Vari�veis dos cards
+    //Variáveis dos cards
     private string textOnly;
     private string charName;
     private string dialogue;
@@ -47,10 +47,13 @@ public class GameManager : MonoBehaviour
     private string rightQuote;
     public Card currentCard;
     public Card testCard;
-    public UnityEngine.UI.Button[] imageGap;
-    public GameObject[] labyrinth;
+    //public UnityEngine.UI.Button[] imageGap;
+    
+    // public GameObject[] labyrinth;
     public GameObject game;
-    Card backup;
+    //Card backup;
+    public TMP_Text textGlossaryObject;
+    //public string textGlossary;
 
     private void Start(){
         LoadCard(testCard);
@@ -61,74 +64,32 @@ public class GameManager : MonoBehaviour
     //Muda o texto dependendo da posição da carta
     public void UpdateActionQuote()
     { 
-        
         if(cardGameObject.transform.position.x > 0){
             actionQuote.text = rightQuote;
-        }else{
+        } else {
             actionQuote.text = leftQuote;
         }
     }
-    public void apagarFlecha()
-    {
-        labyrinth[2].SetActive(false);
-    }
+
     //Acontece a todo frame
-    bool oneTime = true;
     public void Update()
     {
-        
-        //Se existir algum labirinto na carta vai habilitar
-       
-        if(currentCard.labyrinthName != null){
-            for(int i = 0; i<labyrinth.Length; i++){
-                if(labyrinth[i].name == currentCard.labyrinthName){
-                    if(oneTime){
-                        labyrinth[i].SetActive(true);
-                        oneTime = false;
-                    }
-                    
-                    if (currentCard.labyrinthName == "Arrow")
-                    {
-                         Invoke("apagarFlecha", 3f);
-                        
-                         
-                    }
-                   
-                    if(currentCard.labyrinthName != "Arrow"){
-                        game.SetActive(false);
-                    }
-                    
-                    //currentCard.labyrinthName = null;
-                    
-                }
-                
-            }
-            
-        }
-        //Habilitar itens na mochila
-        if(currentCard.item != null){
-            for(int i =0; i<imageGap.Length; i++){
-                if(imageGap[i].tag == currentCard.itemGapName){
-                imageGap[i].image.sprite = currentCard.item.itemSprite;
-                imageGap[i].interactable = true;
-            }
-            }
-            
-        }
         //Atribuindo as variáveis para o objeto
         textCardOnly.text = textOnly;
         characterName.text = charName;
         characterDialogue.text = dialogue;
         
         //Muda a cor do texto dependendo da posição da carta
-        textColor.a = Mathf.Min(Mathf.Abs(cardGameObject.transform.position.x/divideValue), 1); 
+        textColor.a = Mathf.Min(Mathf.Abs(cardGameObject.transform.position.x / divideValue), 1); 
+        
         //Se textCardOnly for vazio, vai aparecer o background da resposta
         if(currentCard.textCardOnly == ""){
-            quoteBackgroundColor.a = Mathf.Min(Mathf.Abs(cardGameObject.transform.position.x/backgroundDivideValue), fTransparency);
-        //Se não for vazio, não aparece background
-        }else{
+            quoteBackgroundColor.a = Mathf.Min(Mathf.Abs(cardGameObject.transform.position.x / backgroundDivideValue), fTransparency);
+        } else {
+            //Se não for vazio, não aparece background
             quoteBackgroundColor.a = 0;
         }
+
         //Precisa ficar aqui para o gradiente funcionar
         actionQuote.color = textColor;
         quoteBackground.color = quoteBackgroundColor;
@@ -136,11 +97,10 @@ public class GameManager : MonoBehaviour
         UpdateActionQuote();
 
         //Se clicado vai entrar
-        if (Input.GetMouseButton(0) && mainCardController.isMouseOver ){
-            //A carta segue o mouse
-            Vector2 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition); 
-            cardGameObject.transform.position = pos;
-
+        if (Input.GetMouseButton(0) && mainCardController.isMouseOver){
+            //A carta segue o mouse, mas só no eixo x
+            Vector2 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            cardGameObject.transform.position = new Vector2(pos.x, defaultPositionCard.y);
         }
         //Se parar de ser clicado
         else{
@@ -172,19 +132,9 @@ public class GameManager : MonoBehaviour
         }
 
         //Para fazer a carta ter um pequeno ângulo ao ser arrastada
-        cardGameObject.transform.eulerAngles = new Vector3(0, 0, -cardGameObject.transform.position.x*1.5f);
+        cardGameObject.transform.eulerAngles = new Vector3(0, 0, -cardGameObject.transform.position.x * 1.5f);
     }
 
-    public void clicar(){
-       
-        Debug.Log("Carta " + currentCard.name);
-        Debug.Log("Backup " + backup.name);
-        Debug.Log("Parent " + currentCard.parentCard.name);
-        LoadCard(currentCard.parentCard);
-        
-        
-
-    }
     public void LoadCard(Card card)
     {
         cardSpriteRenderer.sprite = resourceManager.sprites[(int)card.sprite];
@@ -192,24 +142,17 @@ public class GameManager : MonoBehaviour
         dialogue = card.dialogue;
         leftQuote = card.leftQuote;
         rightQuote = card.rightQuote;
-        textOnly = card.textCardOnly;
         currentCard = card;
-        //Não esta perfeito mas funciona
-        if(backup != currentCard && currentCard.parentCard == null && currentCard.name != "01"){
-            currentCard.parentCard = backup;
-        }
-       
-        
-        
-        }
+        textGlossaryObject.text += card.textGlossary + "\n\n";
+    }
+
     public void NewCardLeft()
     {
-            backup = currentCard;
-            LoadCard(currentCard.leftCard);
+        LoadCard(currentCard.leftCard);
     }
+
     public void NewCardRight()
     {
-            backup = currentCard;
-            LoadCard(currentCard.rightCard);
+        LoadCard(currentCard.rightCard);
     }
 }

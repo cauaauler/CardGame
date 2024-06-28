@@ -13,11 +13,15 @@ MonoBehaviour:
   m_Name: 05
   m_EditorClassIdentifier: 
   textCardOnly: 
-  sprite: 0
-  cardName: Zoe
+  sprite: 7
+  cardName: 
   cardID: 0
-  dialogue: "Est\xE1 escuro e empoeirado"
-  leftQuote: Seguir pela direita
-  rightQuote: Seguir pela esquerda
-  leftCard: {fileID: 11400000, guid: 6729611ffe43f824fbb963df322f1f06, type: 2}
-  rightCard: {fileID: 11400000, guid: 3db9589d90d14da4fad385e7678c5f60, type: 2}
+  dialogue: <color=red>MUDAR</color>  CHEGOU NA ESCOLA
+  leftQuote: 
+  rightQuote: 
+  leftCard: {fileID: 11400000, guid: aa8197a18a749264784751d988ee16b6, type: 2}
+  rightCard: {fileID: 11400000, guid: aa8197a18a749264784751d988ee16b6, type: 2}
+  item: {fileID: 0}
+  itemGapName: 
+  labyrinthName: 
+  parentCard: {fileID: 11400000, guid: 110aba3f30ed8ce489c8b8b02dedacc5, type: 2}

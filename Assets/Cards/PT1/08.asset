@@ -13,14 +13,16 @@ MonoBehaviour:
   m_Name: 08
   m_EditorClassIdentifier: 
   textCardOnly: 
-  sprite: 2
-  cardName: Dory
+  sprite: 3
+  cardName: "L\xFAcia"
   cardID: 0
-  dialogue: "Meu tempo est\xE1 acabando, deixei um di\xE1rio com tudo explicado nele... "
-  leftQuote: Estranho...
-  rightQuote: Curioso...
-  leftCard: {fileID: 11400000, guid: e9400e650a1ca534aad9356ef243607c, type: 2}
-  rightCard: {fileID: 11400000, guid: e9400e650a1ca534aad9356ef243607c, type: 2}
+  dialogue: "Precisamos escolher por onde come\xE7ar, quer dar uma olhada no curso
+    de medicina ? haha "
+  leftQuote: "Sem gra\xE7a"
+  rightQuote: Pode escolher
+  leftCard: {fileID: 11400000, guid: edd05d567ba3e424db2637909abf4e74, type: 2}
+  rightCard: {fileID: 11400000, guid: edd05d567ba3e424db2637909abf4e74, type: 2}
   item: {fileID: 0}
   itemGapName: 
   labyrinthName: 
+  parentCard: {fileID: 11400000, guid: 136312194c79592478c888942805c757, type: 2}

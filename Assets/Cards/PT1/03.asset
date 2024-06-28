@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: 03
   m_EditorClassIdentifier: 
   textCardOnly: 
-  sprite: 1
-  cardName: Pai
+  sprite: 2
+  cardName: "M\xE3e"
   cardID: 0
-  dialogue: "Ent\xE3o v\xE1 limpar o s\xF3t\xE3o !"
-  leftQuote: O senhor que manda
-  rightQuote: "J\xE1 estou indo"
-  leftCard: {fileID: 11400000, guid: 83ddb61b7f2aa42409220b5cdd3bbd16, type: 2}
-  rightCard: {fileID: 11400000, guid: 83ddb61b7f2aa42409220b5cdd3bbd16, type: 2}
+  dialogue: Ansiosa para conhecer melhor o curso de medicina ?
+  leftQuote: Sim
+  rightQuote: "N\xE3o \xE9 meu foco"
+  leftCard: {fileID: 11400000, guid: 110aba3f30ed8ce489c8b8b02dedacc5, type: 2}
+  rightCard: {fileID: 11400000, guid: fd1afdb36bf503946b588709675663dc, type: 2}
   item: {fileID: 0}
   itemGapName: 
   labyrinthName: 

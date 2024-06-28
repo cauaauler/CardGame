@@ -13,14 +13,16 @@ MonoBehaviour:
   m_Name: 06
   m_EditorClassIdentifier: 
   textCardOnly: 
-  sprite: 2
-  cardName: Holograma
+  sprite: 7
+  cardName: 
   cardID: 0
-  dialogue: Preciso ir direto ao ponto
-  leftQuote: "O que \xE9 isso ?"
-  rightQuote: "Quem \xE9 essa ?"
-  leftCard: {fileID: 11400000, guid: 82f89bd930182a345a37c9b50c2b7fe2, type: 2}
-  rightCard: {fileID: 11400000, guid: 82f89bd930182a345a37c9b50c2b7fe2, type: 2}
+  dialogue: "Essa implic\xE2ncia com medicina me incomoda um pouco, acaba sendo muita
+    press\xE3o em cima de mim. N\xE3o sei se quero seguir o caminho dos meus pais. "
+  leftQuote: 
+  rightQuote: 
+  leftCard: {fileID: 11400000, guid: 136312194c79592478c888942805c757, type: 2}
+  rightCard: {fileID: 11400000, guid: 136312194c79592478c888942805c757, type: 2}
   item: {fileID: 0}
   itemGapName: 
   labyrinthName: 
+  parentCard: {fileID: 11400000, guid: ca627270ba6799040b34fabb23ee5271, type: 2}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda14a0c07c9a6046bff008d2e9219ce, type: 3}
+  m_Name: 03
+  m_EditorClassIdentifier: 
+  textCardOnly: 
+  sprite: 5
+  cardName: 'Apresentadora '
+  dialogue: "Ada foi a primeira pessoa a escrever um <color=red>algoritmo</color> 
+    para ser processado por uma m\xE1quina. Sendo considerada a primeira programadora
+    da hist\xF3ria."
+  leftQuote: 
+  rightQuote: 
+  leftCard: {fileID: 11400000, guid: 4e702d307f789bb49a3de1eceb1ad88f, type: 2}
+  rightCard: {fileID: 11400000, guid: 4e702d307f789bb49a3de1eceb1ad88f, type: 2}
+  textGlossary: Explicar algoritmo

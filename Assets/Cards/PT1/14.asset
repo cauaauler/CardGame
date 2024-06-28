@@ -13,14 +13,17 @@ MonoBehaviour:
   m_Name: 14
   m_EditorClassIdentifier: 
   textCardOnly: 
-  sprite: 1
-  cardName: Pai
+  sprite: 3
+  cardName: "L\xFAcia"
   cardID: 0
-  dialogue: "Voc\xEA \xE9 uma in\xFAtil como sua m\xE3e"
-  leftQuote: Me desculpe
-  rightQuote: "Prometo que melhorar\xE1"
-  leftCard: {fileID: 11400000, guid: cdc980466f87f7e4c9964e877dd3d552, type: 2}
-  rightCard: {fileID: 11400000, guid: cdc980466f87f7e4c9964e877dd3d552, type: 2}
+  dialogue: "Hm... precisamos escolher por onde come\xE7ar, temos Engenharia de Software,
+    Ci\xEAncia da Computa\xE7\xE3o, Engenharia de Sistemas e An\xE1lise e Desenvolvimento
+    de Sistemas. "
+  leftQuote: Uau, tantos cursos
+  rightQuote: "N\xE3o \xE9 tudo a mesma coisa ?"
+  leftCard: {fileID: 11400000, guid: a933a27ba3a00134e9adc74293958507, type: 2}
+  rightCard: {fileID: 11400000, guid: bf3da9bb0a5aacb4ca64ebd9af315678, type: 2}
   item: {fileID: 0}
   itemGapName: 
   labyrinthName: 
+  parentCard: {fileID: 11400000, guid: 8acbfc6b08b2fba4191004811bd45f1d, type: 2}

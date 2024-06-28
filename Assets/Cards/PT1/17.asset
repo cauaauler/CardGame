@@ -13,11 +13,17 @@ MonoBehaviour:
   m_Name: 17
   m_EditorClassIdentifier: 
   textCardOnly: 
-  sprite: 0
-  cardName: Zoe
+  sprite: 5
+  cardName: Apresentadora
   cardID: 0
-  dialogue: "Est\xE1 sem bateria"
-  leftQuote: Procurar na despensa
-  rightQuote: Procurar na cozinha
-  leftCard: {fileID: 11400000, guid: 231de72cabdb04a49aed011bb507105a, type: 2}
-  rightCard: {fileID: 11400000, guid: 69ded9d3c5cb16b4eab6de5b0f051773, type: 2}
+  dialogue: "Engenharia de Software foca-se na implementa\xE7\xE3o das tecnologias
+    criadas, construindo solu\xE7\xF5es usando tecnologias existentes e escrevendo
+    c\xF3digo"
+  leftQuote: 
+  rightQuote: 
+  leftCard: {fileID: 11400000, guid: 28becf33dd967c84d8e562567cdddb72, type: 2}
+  rightCard: {fileID: 11400000, guid: 28becf33dd967c84d8e562567cdddb72, type: 2}
+  item: {fileID: 0}
+  itemGapName: 
+  labyrinthName: 
+  parentCard: {fileID: 11400000, guid: 2ce579f27acbe584297e98c9d147aaab, type: 2}

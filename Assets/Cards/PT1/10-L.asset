@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda14a0c07c9a6046bff008d2e9219ce, type: 3}
+  m_Name: 10-L
+  m_EditorClassIdentifier: 
+  textCardOnly: 
+  sprite: 3
+  cardName: "L\xFAcia"
+  cardID: 0
+  dialogue: "Mentira dela, j\xE1 escolhemos sim, vamos ver os cursos de computa\xE7\xE3o! "
+  leftQuote: "Ah, \xE9 mesmo"
+  rightQuote: Quer vir junto Rubens ?
+  leftCard: {fileID: 11400000, guid: de885ab4846c0a74b9633fcd16ce7cf2, type: 2}
+  rightCard: {fileID: 11400000, guid: de885ab4846c0a74b9633fcd16ce7cf2, type: 2}
+  item: {fileID: 0}
+  itemGapName: 
+  labyrinthName: 
+  parentCard: {fileID: 0}

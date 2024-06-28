@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda14a0c07c9a6046bff008d2e9219ce, type: 3}
+  m_Name: 09
+  m_EditorClassIdentifier: 
+  textCardOnly: 
+  sprite: 3
+  cardName: "L\xFAcia"
+  cardID: 0
+  dialogue: "Que tal vermos os cursos de computa\xE7\xE3o ? "
+  leftQuote: "N\xE3o"
+  rightQuote: Ideia legal
+  leftCard: {fileID: 11400000, guid: 35d8050c68bc5924189e00a74f656205, type: 2}
+  rightCard: {fileID: 11400000, guid: 9322ad13715613348b1bd8856c50008c, type: 2}
+  item: {fileID: 0}
+  itemGapName: 
+  labyrinthName: 
+  parentCard: {fileID: 11400000, guid: 867065b1bce6d3b43803b69b4715e8b7, type: 2}

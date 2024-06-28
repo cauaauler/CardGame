@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class trocarCena : MonoBehaviour
-{
-    public void LoadScene(string scene)
+public class TrocarCena : MonoBehaviour
+{   
+
+    
+    public void LoadScene(string sceneName)
     {
         
-        SceneManager.LoadScene(scene);
+        SceneManager.LoadScene(sceneName);
         
     }
     

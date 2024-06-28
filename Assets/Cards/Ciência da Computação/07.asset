@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda14a0c07c9a6046bff008d2e9219ce, type: 3}
+  m_Name: 07
+  m_EditorClassIdentifier: 
+  textCardOnly: 
+  sprite: 6
+  cardName: Ada
+  dialogue: "Algumas das disciplinas vistas no curso s\xE3o, banco de dados, sistemas
+    operacionais, redes e arquitetura de computadores, intelig\xEAncia artificial,
+    desenvolvimento web, computa\xE7\xE3o gr\xE1fica, seguran\xE7a da informa\xE7\xE3o."
+  leftQuote: 
+  rightQuote: 
+  leftCard: {fileID: 11400000, guid: 671bc0ae341c9fe4d8ceb069ed844e62, type: 2}
+  rightCard: {fileID: 11400000, guid: 671bc0ae341c9fe4d8ceb069ed844e62, type: 2}
+  textGlossary: 

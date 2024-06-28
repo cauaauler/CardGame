@@ -28,27 +28,14 @@ public class cardController : MonoBehaviour
 
 public enum CardSprite //enum é basicamente um array, como esse está público posso usar nos outros scripts
 {
-    Zoe,
+    Amelia,
     Pai,
-    Holograma,
-    Isaac,
-    //ADA
+    Mae,
+    Lucia,
+    Rubens,
+    Apresentadora,
     Ada,
-    Babbage,
-    ProfessorUK,
-    Professor2UK,
-    //MARIE
-    Marie,
-    Pierre,
-    Pedestre,
-    ProfessorFR,
-    CientistaFR,
-    //UTEIS
-    Portal,
-    Fundo,
-    DonoDaBanca,
-    TelaPreta,
-
+    Background
        
 
 }

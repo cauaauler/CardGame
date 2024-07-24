@@ -15,13 +15,9 @@ MonoBehaviour:
   textCardOnly: 
   sprite: 2
   cardName: "M\xE3e"
-  cardID: 0
   dialogue: "Como assim n\xE3o  ? "
   leftQuote: "N\xE3o tenho certeza"
   rightQuote: "N\xE3o quero"
   leftCard: {fileID: 11400000, guid: 6dd1459db4879684da638c55949911a4, type: 2}
   rightCard: {fileID: 11400000, guid: e602f83efeba0c94eaeb41fe685b69b5, type: 2}
-  item: {fileID: 0}
-  itemGapName: 
-  labyrinthName: 
-  parentCard: {fileID: 11400000, guid: 16cba25eec4c6844385863a7248e65bd, type: 2}
+  textGlossary: .

@@ -31,14 +31,14 @@ public class GameManager : MonoBehaviour
     public float backgroundDivideValue;
     public Color textColor;
     public Color quoteBackgroundColor;
-  
+
     //UI
     public TMP_Text actionQuote;
     public TMP_Text characterDialogue;
     public TMP_Text characterName;
     public TMP_Text textCardOnly;
     public SpriteRenderer quoteBackground;
-   
+
     //Variáveis dos cards
     private string textOnly;
     private string charName;
@@ -48,14 +48,15 @@ public class GameManager : MonoBehaviour
     public Card currentCard;
     public Card testCard;
     //public UnityEngine.UI.Button[] imageGap;
-    
+
     // public GameObject[] labyrinth;
     public GameObject game;
     //Card backup;
     public TMP_Text textGlossaryObject;
     //public string textGlossary;
 
-    private void Start(){
+    private void Start()
+    {
         LoadCard(testCard);
         //A posição que a carta vai voltar ao ser solta
         defaultPositionCard = cardGameObject.transform.position;
@@ -63,10 +64,13 @@ public class GameManager : MonoBehaviour
 
     //Muda o texto dependendo da posição da carta
     public void UpdateActionQuote()
-    { 
-        if(cardGameObject.transform.position.x > 0){
+    {
+        if (cardGameObject.transform.position.x > 0)
+        {
             actionQuote.text = rightQuote;
-        } else {
+        }
+        else
+        {
             actionQuote.text = leftQuote;
         }
     }
@@ -74,18 +78,17 @@ public class GameManager : MonoBehaviour
     //Acontece a todo frame
     public void Update()
     {
-        //Atribuindo as variáveis para o objeto
-        textCardOnly.text = textOnly;
-        characterName.text = charName;
-        characterDialogue.text = dialogue;
-        
+
         //Muda a cor do texto dependendo da posição da carta
-        textColor.a = Mathf.Min(Mathf.Abs(cardGameObject.transform.position.x / divideValue), 1); 
-        
+        textColor.a = Mathf.Min(Mathf.Abs(cardGameObject.transform.position.x / divideValue), 1);
+
         //Se textCardOnly for vazio, vai aparecer o background da resposta
-        if(currentCard.textCardOnly == ""){
+        if (currentCard.textCardOnly == "")
+        {
             quoteBackgroundColor.a = Mathf.Min(Mathf.Abs(cardGameObject.transform.position.x / backgroundDivideValue), fTransparency);
-        } else {
+        }
+        else
+        {
             //Se não for vazio, não aparece background
             quoteBackgroundColor.a = 0;
         }
@@ -97,35 +100,41 @@ public class GameManager : MonoBehaviour
         UpdateActionQuote();
 
         //Se clicado vai entrar
-        if (Input.GetMouseButton(0) && mainCardController.isMouseOver){
+        if (Input.GetMouseButton(0) && mainCardController.isMouseOver)
+        {
             //A carta segue o mouse, mas só no eixo x
             Vector2 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             cardGameObject.transform.position = new Vector2(pos.x, defaultPositionCard.y);
         }
         //Se parar de ser clicado
-        else{
+        else
+        {
             //Volta para o centro
-            cardGameObject.transform.position = Vector2.MoveTowards(cardGameObject.transform.position, defaultPositionCard, fMovingSpeed); 
+            cardGameObject.transform.position = Vector2.MoveTowards(cardGameObject.transform.position, defaultPositionCard, fMovingSpeed);
             //Não lembro o porque do eulerAngles, mas tem algo a ver com voltar para o meio
             cardGameObject.transform.eulerAngles = new Vector3(0, 0, 0);
         }
 
         //Se o mouse estiver na direita e for solto, newCardRight()
-        if (cardGameObject.transform.position.x >= fSideTrigger) 
+        if (cardGameObject.transform.position.x >= fSideTrigger)
         {
-            if (Input.GetMouseButtonUp(0)){
-                NewCardRight(); 
+            if (Input.GetMouseButtonUp(0))
+            {
+                NewCardRight();
                 //Não lembro porque do x
                 x++;
             }
         }
         //Não deixa soltar a carta muito perto do centro, o Margin é mais perto do centro do que o Trigger(área que vai executar a ação)
-        else if (cardGameObject.transform.position.x > -fSideMargin){
+        else if (cardGameObject.transform.position.x > -fSideMargin)
+        {
             textColor.a = 0;
         }
         //Se não for nenhum dos dois, vai ter que ser a esquerda
-        else{
-            if (Input.GetMouseButtonUp(0)){
+        else
+        {
+            if (Input.GetMouseButtonUp(0))
+            {
                 NewCardLeft();
                 x++;
             }
@@ -143,7 +152,37 @@ public class GameManager : MonoBehaviour
         leftQuote = card.leftQuote;
         rightQuote = card.rightQuote;
         currentCard = card;
-        textGlossaryObject.text += card.textGlossary + "\n\n";
+
+        if (card.textGlossary != ".")
+        {
+            textGlossaryObject.text += card.textGlossary + "\n\n";
+        }
+
+        //Atribuindo as variáveis para o objeto
+        textCardOnly.text = textOnly;
+        characterName.text = charName;
+        characterDialogue.text = dialogue;
+
+        //Altera da resposta quando não tem imagem
+        RectTransform rectTransform = characterDialogue.GetComponent<RectTransform>();
+        if (currentCard.textCardOnly == ".")
+        {
+            rectTransform.sizeDelta = new Vector2(107, rectTransform.sizeDelta.y);
+            rectTransform.anchoredPosition = new Vector2(-3.8f, rectTransform.anchoredPosition.y);
+            characterDialogue.alignment = TextAlignmentOptions.Top;
+
+
+        }
+        //Se tiver alguma pessoa respondendo volta para o normal
+        else
+        {
+            rectTransform.sizeDelta = new Vector2(87, rectTransform.sizeDelta.y);
+            rectTransform.anchoredPosition = new Vector2(-1.2f, rectTransform.anchoredPosition.y);
+            characterDialogue.alignment = TextAlignmentOptions.TopLeft;
+
+        }
+
+
     }
 
     public void NewCardLeft()

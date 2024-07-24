@@ -12,16 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eda14a0c07c9a6046bff008d2e9219ce, type: 3}
   m_Name: 05
   m_EditorClassIdentifier: 
-  textCardOnly: 
+  textCardOnly: .
   sprite: 7
   cardName: 
-  cardID: 0
   dialogue: <color=red>MUDAR</color>  CHEGOU NA ESCOLA
   leftQuote: 
   rightQuote: 
   leftCard: {fileID: 11400000, guid: aa8197a18a749264784751d988ee16b6, type: 2}
   rightCard: {fileID: 11400000, guid: aa8197a18a749264784751d988ee16b6, type: 2}
-  item: {fileID: 0}
-  itemGapName: 
-  labyrinthName: 
-  parentCard: {fileID: 11400000, guid: 110aba3f30ed8ce489c8b8b02dedacc5, type: 2}
+  textGlossary: 

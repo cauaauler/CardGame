@@ -15,13 +15,9 @@ MonoBehaviour:
   textCardOnly: 
   sprite: 3
   cardName: "L\xFAcia"
-  cardID: 0
   dialogue: "Ci\xEAncia da Computa\xE7\xE3o ?"
   leftQuote: Sim
   rightQuote: "N\xE3o"
   leftCard: {fileID: 11400000, guid: 0f11d7b913edc6048891ed42944fbc41, type: 2}
   rightCard: {fileID: 11400000, guid: b100aec6d458b9145b9932aff26b1117, type: 2}
-  item: {fileID: 0}
-  itemGapName: 
-  labyrinthName: 
-  parentCard: {fileID: 0}
+  textGlossary: 

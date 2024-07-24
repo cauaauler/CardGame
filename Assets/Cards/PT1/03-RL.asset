@@ -15,14 +15,10 @@ MonoBehaviour:
   textCardOnly: 
   sprite: 2
   cardName: "M\xE3e"
-  cardID: 0
   dialogue: "Tenho certeza de que depois de ver a apresenta\xE7\xE3o do  curso de
     medicina vai mudar de ideia"
   leftQuote: Talvez
   rightQuote: Eu que decido isso
   leftCard: {fileID: 11400000, guid: 110aba3f30ed8ce489c8b8b02dedacc5, type: 2}
   rightCard: {fileID: 11400000, guid: 110aba3f30ed8ce489c8b8b02dedacc5, type: 2}
-  item: {fileID: 0}
-  itemGapName: 
-  labyrinthName: 
-  parentCard: {fileID: 11400000, guid: fd1afdb36bf503946b588709675663dc, type: 2}
+  textGlossary: .

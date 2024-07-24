@@ -15,13 +15,9 @@ MonoBehaviour:
   textCardOnly: 
   sprite: 2
   cardName: "M\xE3e"
-  cardID: 0
   dialogue: Ansiosa para conhecer melhor o curso de medicina ?
   leftQuote: Sim
   rightQuote: "N\xE3o \xE9 meu foco"
   leftCard: {fileID: 11400000, guid: 110aba3f30ed8ce489c8b8b02dedacc5, type: 2}
   rightCard: {fileID: 11400000, guid: fd1afdb36bf503946b588709675663dc, type: 2}
-  item: {fileID: 0}
-  itemGapName: 
-  labyrinthName: 
-  parentCard: {fileID: 11400000, guid: dbadb8717c76c5d499176e1159078f73, type: 2}
+  textGlossary: .

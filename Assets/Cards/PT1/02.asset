@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eda14a0c07c9a6046bff008d2e9219ce, type: 3}
   m_Name: 02
   m_EditorClassIdentifier: 
-  textCardOnly: 
+  textCardOnly: .
   sprite: 7
   cardName: 
   dialogue: "<color=red>MUDAR, E TAMB\xC9M MUDAR A IMAGEM SEM NADA ALI NA ESQUERDA</color>
@@ -21,4 +21,4 @@ MonoBehaviour:
   rightQuote: 
   leftCard: {fileID: 11400000, guid: 16cba25eec4c6844385863a7248e65bd, type: 2}
   rightCard: {fileID: 11400000, guid: 16cba25eec4c6844385863a7248e65bd, type: 2}
-  textGlossary: teste2
+  textGlossary: .

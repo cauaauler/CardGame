@@ -10,16 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eda14a0c07c9a6046bff008d2e9219ce, type: 3}
-  m_Name: 03
+  m_Name: 01
   m_EditorClassIdentifier: 
   textCardOnly: 
   sprite: 5
-  cardName: 'Apresentadora '
-  dialogue: "Ada foi a primeira pessoa a escrever um <color=red>algoritmo</color> 
-    para ser processado por uma m\xE1quina. Sendo considerada a primeira programadora
-    da hist\xF3ria."
+  cardName: Apresentadora
+  dialogue: "Quem vai apresentar o curso de Analise e Desenvolvimento de Sistemas
+    \xE9 Grace Hopper"
   leftQuote: 
   rightQuote: 
-  leftCard: {fileID: 11400000, guid: 4e702d307f789bb49a3de1eceb1ad88f, type: 2}
-  rightCard: {fileID: 11400000, guid: 4e702d307f789bb49a3de1eceb1ad88f, type: 2}
-  textGlossary: Explicar algoritmo
+  leftCard: {fileID: 11400000, guid: 53b4c3033dcb94044a8932a1220caf68, type: 2}
+  rightCard: {fileID: 11400000, guid: 53b4c3033dcb94044a8932a1220caf68, type: 2}
+  textGlossary: 

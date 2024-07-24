@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda14a0c07c9a6046bff008d2e9219ce, type: 3}
+  m_Name: 03
+  m_EditorClassIdentifier: 
+  textCardOnly: 
+  sprite: 0
+  cardName: Margaret Hamilton
+  dialogue: "A Engenharia de Software \xE9 voltada para a forma\xE7\xE3o de profissionais
+    especializados no desenvolvimento, implementa\xE7\xE3o e manuten\xE7\xE3o de
+    sistemas de software.\_ Concentra-se na aplica\xE7\xE3o de princ\xEDpios cient\xEDficos
+    e matem\xE1ticos para projetar e construir programas de computador eficientes
+    e confi\xE1veis. "
+  leftQuote: 
+  rightQuote: 
+  leftCard: {fileID: 0}
+  rightCard: {fileID: 0}
+  textGlossary: 

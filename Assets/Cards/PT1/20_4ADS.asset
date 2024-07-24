@@ -15,13 +15,9 @@ MonoBehaviour:
   textCardOnly: 
   sprite: 3
   cardName: "L\xFAcia"
-  cardID: 0
   dialogue: "An\xE1lise e desenvolvimento de sistemas ?"
   leftQuote: Sim
   rightQuote: Repete os cursos ?
-  leftCard: {fileID: 11400000, guid: 0f11d7b913edc6048891ed42944fbc41, type: 2}
+  leftCard: {fileID: 11400000, guid: 48ad5b6a8199ded4e88d460b548a9939, type: 2}
   rightCard: {fileID: 11400000, guid: a94d434801775f54b97455969d61dcef, type: 2}
-  item: {fileID: 0}
-  itemGapName: 
-  labyrinthName: 
-  parentCard: {fileID: 0}
+  textGlossary: 

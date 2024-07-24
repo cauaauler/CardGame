@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda14a0c07c9a6046bff008d2e9219ce, type: 3}
+  m_Name: 06
+  m_EditorClassIdentifier: 
+  textCardOnly: 
+  sprite: 0
+  cardName: Radia Perlman
+  dialogue: "O engenheiro de computa\xE7\xE3o projeta solu\xE7\xF5es em tecnologia
+    da informa\xE7\xE3o, identificando problemas e oportunidades. Ele cria prot\xF3tipos,
+    valida novas tecnologias e projeta aplicativos em <color=red>linguagem de baixo,
+    m\xE9dio e alto n\xEDvel</color>. "
+  leftQuote: 
+  rightQuote: 
+  leftCard: {fileID: 0}
+  rightCard: {fileID: 0}
+  textGlossary: 

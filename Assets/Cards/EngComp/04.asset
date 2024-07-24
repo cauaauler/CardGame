@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda14a0c07c9a6046bff008d2e9219ce, type: 3}
+  m_Name: 04
+  m_EditorClassIdentifier: 
+  textCardOnly: 
+  sprite: 0
+  cardName: Radia Perlman
+  dialogue: "O curso de Engenharia da Computa\xE7\xE3o \xE9 uma \xE1rea que combina
+    os princ\xEDpios da engenharia el\xE9trica e da ci\xEAncia da computa\xE7\xE3o
+    para projetar, desenvolver e gerenciar sistemas computacionais.\_ "
+  leftQuote: 
+  rightQuote: 
+  leftCard: {fileID: 0}
+  rightCard: {fileID: 0}
+  textGlossary: 

@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: 05
   m_EditorClassIdentifier: 
   textCardOnly: 
-  sprite: 0
+  sprite: 10
   cardName: Margaret Hamilton
   dialogue: "Algumas das disciplinas s\xE3o,\_Arquitetura de Computadores,\_Banco
     de Dados,\_Intelig\xEAncia Artificial,\_Algoritmos e L\xF3gica de Programa\xE7\xE3o. "
   leftQuote: 
   rightQuote: 
-  leftCard: {fileID: 0}
-  rightCard: {fileID: 0}
-  textGlossary: 
+  leftCard: {fileID: 11400000, guid: fe5459869cabe50469a131e26dceef42, type: 2}
+  rightCard: {fileID: 11400000, guid: fe5459869cabe50469a131e26dceef42, type: 2}
+  textGlossary: .

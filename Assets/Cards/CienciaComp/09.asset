@@ -20,4 +20,4 @@ MonoBehaviour:
   rightQuote: "N\xE3o achei t\xE3o legal"
   leftCard: {fileID: 11400000, guid: 973f4cf703cece94e9acd1181d568142, type: 2}
   rightCard: {fileID: 11400000, guid: 973f4cf703cece94e9acd1181d568142, type: 2}
-  textGlossary: 
+  textGlossary: .

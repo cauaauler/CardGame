@@ -15,14 +15,10 @@ MonoBehaviour:
   textCardOnly: 
   sprite: 3
   cardName: "L\xFAcia"
-  cardID: 0
   dialogue: "Eu quero ver o curso de Ci\xEAncia da Computa\xE7\xE3o. A Am\xE9lia
     vem junto, acho que ela vai gostar de algum dos cursos."
-  leftQuote: 
-  rightQuote: 
+  leftQuote: "J\xE1 que n\xE3o tenho escolha"
+  rightQuote: Parece que preciso ir junto
   leftCard: {fileID: 11400000, guid: dd2935b06c34b214ba506fc0945a614c, type: 2}
   rightCard: {fileID: 11400000, guid: dd2935b06c34b214ba506fc0945a614c, type: 2}
-  item: {fileID: 0}
-  itemGapName: 
-  labyrinthName: 
-  parentCard: {fileID: 0}
+  textGlossary: .

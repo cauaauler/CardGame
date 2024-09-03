@@ -20,4 +20,4 @@ MonoBehaviour:
   rightQuote: Sim
   leftCard: {fileID: 11400000, guid: ce015096b4e3f3d40bc47519a4c13ef6, type: 2}
   rightCard: {fileID: 11400000, guid: ce015096b4e3f3d40bc47519a4c13ef6, type: 2}
-  textGlossary: 
+  textGlossary: .

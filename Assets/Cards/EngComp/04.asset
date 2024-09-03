@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: 04
   m_EditorClassIdentifier: 
   textCardOnly: 
-  sprite: 0
+  sprite: 8
   cardName: Radia Perlman
   dialogue: "O curso de Engenharia da Computa\xE7\xE3o \xE9 uma \xE1rea que combina
     os princ\xEDpios da engenharia el\xE9trica e da ci\xEAncia da computa\xE7\xE3o
-    para projetar, desenvolver e gerenciar sistemas computacionais.\_ "
+    para projetar, desenvolver e gerenciar sistemas computacionais."
   leftQuote: 
   rightQuote: 
-  leftCard: {fileID: 0}
-  rightCard: {fileID: 0}
-  textGlossary: 
+  leftCard: {fileID: 11400000, guid: eb45145a75f0748448203bbccaceb7bd, type: 2}
+  rightCard: {fileID: 11400000, guid: eb45145a75f0748448203bbccaceb7bd, type: 2}
+  textGlossary: .

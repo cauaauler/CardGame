@@ -15,14 +15,10 @@ MonoBehaviour:
   textCardOnly: 
   sprite: 5
   cardName: Apresentadora
-  cardID: 0
   dialogue: "Essa apresenta\xE7\xE3o \xE9  um pouco diferente das demais, para iniciar
     \xE9 necess\xE1rio clicar ali no bot\xE3o em cima da bancada."
   leftQuote: 
   rightQuote: 
   leftCard: {fileID: 11400000, guid: e07dafa638d51574697f7069f0cb17cc, type: 2}
   rightCard: {fileID: 11400000, guid: e07dafa638d51574697f7069f0cb17cc, type: 2}
-  item: {fileID: 0}
-  itemGapName: 
-  labyrinthName: 
-  parentCard: {fileID: 0}
+  textGlossary: .

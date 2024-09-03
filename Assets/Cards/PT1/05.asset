@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eda14a0c07c9a6046bff008d2e9219ce, type: 3}
   m_Name: 05
   m_EditorClassIdentifier: 
-  textCardOnly: .
-  sprite: 7
-  cardName: 
-  dialogue: <color=red>MUDAR</color>  CHEGOU NA ESCOLA
-  leftQuote: 
-  rightQuote: 
+  textCardOnly: 
+  sprite: 2
+  cardName: "M\xE3e"
+  dialogue: "Chegamos filha, boa aula para voc\xEA, se cuida."
+  leftQuote: Tchau
+  rightQuote: "At\xE9 mais"
   leftCard: {fileID: 11400000, guid: aa8197a18a749264784751d988ee16b6, type: 2}
   rightCard: {fileID: 11400000, guid: aa8197a18a749264784751d988ee16b6, type: 2}
-  textGlossary: 
+  textGlossary: .

@@ -16,10 +16,10 @@ MonoBehaviour:
   sprite: 5
   cardName: Apresentadora
   dialogue: "Ci\xEAncia da Computa\xE7\xE3o \xE9 focada na cria\xE7\xE3o de tecnologias,
-    conceitos, e prot\xF3tipos que permitem \xE0s pessoas automatizar, simplificar
-    e melhorar processos. "
+    <color=red>algoritmos</color>, e prot\xF3tipos que permitem \xE0s pessoas automatizar,
+    simplificar e melhorar processos."
   leftQuote: 
   rightQuote: 
   leftCard: {fileID: 11400000, guid: 26b8c8c8b936a9b4288e77a8c7970642, type: 2}
   rightCard: {fileID: 11400000, guid: 26b8c8c8b936a9b4288e77a8c7970642, type: 2}
-  textGlossary: 
+  textGlossary: .

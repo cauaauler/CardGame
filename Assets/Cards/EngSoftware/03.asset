@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: 03
   m_EditorClassIdentifier: 
   textCardOnly: 
-  sprite: 0
+  sprite: 10
   cardName: Margaret Hamilton
   dialogue: "A Engenharia de Software \xE9 voltada para a forma\xE7\xE3o de profissionais
     especializados no desenvolvimento, implementa\xE7\xE3o e manuten\xE7\xE3o de
-    sistemas de software.\_ Concentra-se na aplica\xE7\xE3o de princ\xEDpios cient\xEDficos
+    sistemas de software. Concentra-se na aplica\xE7\xE3o de princ\xEDpios cient\xEDficos
     e matem\xE1ticos para projetar e construir programas de computador eficientes
     e confi\xE1veis. "
   leftQuote: 
   rightQuote: 
-  leftCard: {fileID: 0}
-  rightCard: {fileID: 0}
-  textGlossary: 
+  leftCard: {fileID: 11400000, guid: cdeb1d3f3ae6bd64aa32d3767db53871, type: 2}
+  rightCard: {fileID: 11400000, guid: cdeb1d3f3ae6bd64aa32d3767db53871, type: 2}
+  textGlossary: .

@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: 05
   m_EditorClassIdentifier: 
   textCardOnly: 
-  sprite: 0
+  sprite: 8
   cardName: Radia Perlman
   dialogue: " Os alunos aprendem linguagens de programa\xE7\xE3o e algoritmos. Tamb\xE9m
     s\xE3o abordados os conceitos de arquitetura de computadores, sistemas operacionais,
     redes de computadores, banco de dados, <color=red>intelig\xEAncia artificial</color>
-    e rob\xF3tica.  "
+    e rob\xF3tica."
   leftQuote: 
   rightQuote: 
-  leftCard: {fileID: 0}
-  rightCard: {fileID: 0}
-  textGlossary: 
+  leftCard: {fileID: 11400000, guid: a966ce3b20339ef4c910e1b31906f418, type: 2}
+  rightCard: {fileID: 11400000, guid: a966ce3b20339ef4c910e1b31906f418, type: 2}
+  textGlossary: .

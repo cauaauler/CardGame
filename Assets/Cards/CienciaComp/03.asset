@@ -15,13 +15,12 @@ MonoBehaviour:
   textCardOnly: 
   sprite: 5
   cardName: 'Apresentadora '
-  dialogue: "Ada foi a primeira pessoa a escrever um <color=red>algoritmo</color>
-    para ser processado por uma m\xE1quina. Sendo considerada a primeira programadora
-    da hist\xF3ria. Ela foi uma das primeiras a perceber que a <color=red>m\xE1quina
-    anal\xEDtica</color> poderia ser programada para realizar tarefas al\xE9m de
-    c\xE1lculos matem\xE1ticos."
+  dialogue: "Ada foi a primeira pessoa a escrever um algoritmo para ser processado
+    por uma m\xE1quina. Sendo considerada a primeira programadora da hist\xF3ria.
+    Ela foi uma das primeiras a perceber que a <color=red>m\xE1quina anal\xEDtica</color>
+    poderia ser programada para realizar tarefas al\xE9m de c\xE1lculos matem\xE1ticos."
   leftQuote: 
   rightQuote: 
   leftCard: {fileID: 11400000, guid: 4e702d307f789bb49a3de1eceb1ad88f, type: 2}
   rightCard: {fileID: 11400000, guid: 4e702d307f789bb49a3de1eceb1ad88f, type: 2}
-  textGlossary: Explicar algoritmo
+  textGlossary: .

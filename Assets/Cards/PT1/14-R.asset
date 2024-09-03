@@ -15,14 +15,10 @@ MonoBehaviour:
   textCardOnly: 
   sprite: 3
   cardName: "L\xFAcia"
-  cardID: 0
-  dialogue: "N\xE3o,  n\xE3o s\xE3o iguais, porque eles estariam separados em cursos
+  dialogue: "N\xE3o, n\xE3o s\xE3o iguais, porque eles estariam separados em cursos
     diferentes"
   leftQuote: Entendi
   rightQuote: "T\xE1, mas qual a diferen\xE7a ?"
   leftCard: {fileID: 11400000, guid: a933a27ba3a00134e9adc74293958507, type: 2}
   rightCard: {fileID: 11400000, guid: 997698a47d2f4a34c81d537470a62471, type: 2}
-  item: {fileID: 0}
-  itemGapName: 
-  labyrinthName: 
-  parentCard: {fileID: 0}
+  textGlossary: .

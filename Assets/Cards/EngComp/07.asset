@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 07
   m_EditorClassIdentifier: 
   textCardOnly: 
-  sprite: 0
+  sprite: 8
   cardName: Radia Perlman
   dialogue: "Em termos gerais, um engenheiro da computa\xE7\xE3o projeta e constr\xF3i
     sistemas computacionais que s\xE3o utilizados em uma variedade de aplica\xE7\xF5es,
@@ -22,6 +22,6 @@ MonoBehaviour:
     inteligentes e muito mais. "
   leftQuote: 
   rightQuote: 
-  leftCard: {fileID: 0}
-  rightCard: {fileID: 0}
-  textGlossary: 
+  leftCard: {fileID: 11400000, guid: ea29b2e200ebcfc409c5e41046aaa33e, type: 2}
+  rightCard: {fileID: 11400000, guid: ea29b2e200ebcfc409c5e41046aaa33e, type: 2}
+  textGlossary: .

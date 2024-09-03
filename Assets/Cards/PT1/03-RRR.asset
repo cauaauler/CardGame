@@ -15,8 +15,7 @@ MonoBehaviour:
   textCardOnly: 
   sprite: 2
   cardName: "M\xE3e"
-  dialogue: "<color=red>MUDAR</color> Acho que j\xE1 conversamos demais sobre isso,
-    a escolha \xE9 sua. Sei que voc\xEA n\xE3o vai quebrar a tradi\xE7\xE3o da fam\xEDlia."
+  dialogue: "Acho que j\xE1 conversamos demais sobre isso, a escolha \xE9 sua. "
   leftQuote: Sei disso
   rightQuote: "Preciso seguir meu cora\xE7\xE3o"
   leftCard: {fileID: 11400000, guid: 110aba3f30ed8ce489c8b8b02dedacc5, type: 2}

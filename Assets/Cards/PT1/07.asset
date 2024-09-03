@@ -15,13 +15,9 @@ MonoBehaviour:
   textCardOnly: 
   sprite: 3
   cardName: "L\xFAcia"
-  cardID: 0
   dialogue: "Ei Am\xE9lia, tudo certo ?  Vamos entrar, j\xE1 estamos atrasadas."
   leftQuote: "Ah, oi L\xFAcia"
-  rightQuote: Vamos
+  rightQuote: "N\xE3o te vi chegar"
   leftCard: {fileID: 11400000, guid: 867065b1bce6d3b43803b69b4715e8b7, type: 2}
   rightCard: {fileID: 11400000, guid: 867065b1bce6d3b43803b69b4715e8b7, type: 2}
-  item: {fileID: 0}
-  itemGapName: 
-  labyrinthName: 
-  parentCard: {fileID: 11400000, guid: aa8197a18a749264784751d988ee16b6, type: 2}
+  textGlossary: .

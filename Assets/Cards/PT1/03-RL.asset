@@ -16,7 +16,7 @@ MonoBehaviour:
   sprite: 2
   cardName: "M\xE3e"
   dialogue: "Tenho certeza de que depois de ver a apresenta\xE7\xE3o do  curso de
-    medicina vai mudar de ideia"
+    medicina vai mudar de ideia."
   leftQuote: Talvez
   rightQuote: Eu que decido isso
   leftCard: {fileID: 11400000, guid: 110aba3f30ed8ce489c8b8b02dedacc5, type: 2}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eda14a0c07c9a6046bff008d2e9219ce, type: 3}
   m_Name: 01
   m_EditorClassIdentifier: 
-  textCardOnly: .
+  textCardOnly: 
   sprite: 1
   cardName: Pai
   dialogue: "Bom dia filha, em cinco minutos estamos saindo, j\xE1 estamos atrasados. "
@@ -20,4 +20,4 @@ MonoBehaviour:
   rightQuote: Atrasados !?
   leftCard: {fileID: 11400000, guid: dbadb8717c76c5d499176e1159078f73, type: 2}
   rightCard: {fileID: 11400000, guid: dbadb8717c76c5d499176e1159078f73, type: 2}
-  textGlossary: "Esse texto \xE9 habilitado logo na primeira carta"
+  textGlossary: .

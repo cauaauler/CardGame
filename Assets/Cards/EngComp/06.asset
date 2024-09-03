@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 06
   m_EditorClassIdentifier: 
   textCardOnly: 
-  sprite: 0
+  sprite: 8
   cardName: Radia Perlman
   dialogue: "O engenheiro de computa\xE7\xE3o projeta solu\xE7\xF5es em tecnologia
     da informa\xE7\xE3o, identificando problemas e oportunidades. Ele cria prot\xF3tipos,
@@ -21,6 +21,6 @@ MonoBehaviour:
     m\xE9dio e alto n\xEDvel</color>. "
   leftQuote: 
   rightQuote: 
-  leftCard: {fileID: 0}
-  rightCard: {fileID: 0}
-  textGlossary: 
+  leftCard: {fileID: 11400000, guid: a2a17eedea06c3a488077bfb54ead746, type: 2}
+  rightCard: {fileID: 11400000, guid: a2a17eedea06c3a488077bfb54ead746, type: 2}
+  textGlossary: .

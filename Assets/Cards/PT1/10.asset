@@ -15,14 +15,10 @@ MonoBehaviour:
   textCardOnly: 
   sprite: 4
   cardName: Rubens
-  cardID: 0
   dialogue: "Oi meninas, tudo certo a\xED ?  J\xE1 escolheram qual curso v\xE3o olhar
     primeiro ?"
   leftQuote: Estamos decidindo
   rightQuote: "J\xE1 sim, e voc\xEA ?"
   leftCard: {fileID: 11400000, guid: dd2935b06c34b214ba506fc0945a614c, type: 2}
   rightCard: {fileID: 11400000, guid: 0fa1ca0cdc619814e89ccd4bdfda6e80, type: 2}
-  item: {fileID: 0}
-  itemGapName: 
-  labyrinthName: 
-  parentCard: {fileID: 11400000, guid: 9322ad13715613348b1bd8856c50008c, type: 2}
+  textGlossary: .

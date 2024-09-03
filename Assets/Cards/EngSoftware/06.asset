@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 06
   m_EditorClassIdentifier: 
   textCardOnly: 
-  sprite: 0
+  sprite: 10
   cardName: Margaret Hamilton
   dialogue: "Al\xE9m da programa\xE7\xE3o, o engenheiro de software deve estar atento
     aos apelos do contratante, do cliente final e dos usu\xE1rios do programa desenvolvido.
@@ -22,6 +22,6 @@ MonoBehaviour:
     a usu\xE1rios. "
   leftQuote: 
   rightQuote: 
-  leftCard: {fileID: 0}
-  rightCard: {fileID: 0}
-  textGlossary: 
+  leftCard: {fileID: 11400000, guid: 18db35ef3f4c83d458bba2798db4260c, type: 2}
+  rightCard: {fileID: 11400000, guid: 18db35ef3f4c83d458bba2798db4260c, type: 2}
+  textGlossary: .

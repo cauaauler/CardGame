@@ -20,4 +20,4 @@ MonoBehaviour:
   rightQuote: Vamos continuar
   leftCard: {fileID: 11400000, guid: c8fde0d858fcbac4287e0647578b9b53, type: 2}
   rightCard: {fileID: 11400000, guid: c8fde0d858fcbac4287e0647578b9b53, type: 2}
-  textGlossary: 
+  textGlossary: .

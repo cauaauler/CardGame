@@ -13,13 +13,11 @@ MonoBehaviour:
   m_Name: 08
   m_EditorClassIdentifier: 
   textCardOnly: 
-  sprite: 0
-  cardName: Margaret Hamilton
-  dialogue: "Da minha parte seria isso, espero que tenham aproveitado a palestra,
-    recomendo que voc\xEAs participem das outras apresenta\xE7\xF5es, est\xE3o muito
-    interessantes, at\xE9 mais. "
-  leftQuote: 
-  rightQuote: 
-  leftCard: {fileID: 0}
-  rightCard: {fileID: 0}
-  textGlossary: 
+  sprite: 3
+  cardName: "L\xFAcia"
+  dialogue: Curtiu ?
+  leftQuote: Achei legal
+  rightQuote: "N\xE3o gostei"
+  leftCard: {fileID: 11400000, guid: 103f53c821639244da41915cd4233d8c, type: 2}
+  rightCard: {fileID: 11400000, guid: 103f53c821639244da41915cd4233d8c, type: 2}
+  textGlossary: .

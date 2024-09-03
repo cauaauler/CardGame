@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: 04
   m_EditorClassIdentifier: 
   textCardOnly: 
-  sprite: 0
+  sprite: 10
   cardName: Margaret Hamilton
-  dialogue: "Durante o curso, se aprende principalmente,\_<color=red>Algoritmos</color>
-    e Estruturas de Dados,\_Linguagens de Programa\xE7\xE3o,\_Design de Software
-    e conceitos de <color=red>Desenvolvimento \xC1gil</color>."
+  dialogue: "Durante o curso, se aprende principalmente,\_Algoritmos e Estruturas
+    de Dados,\_Linguagens de Programa\xE7\xE3o,\_Design de Software e conceitos de
+    <color=red>Desenvolvimento \xC1gil</color>."
   leftQuote: 
   rightQuote: 
-  leftCard: {fileID: 0}
-  rightCard: {fileID: 0}
-  textGlossary: 
+  leftCard: {fileID: 11400000, guid: cd0de88732db5e1479d2b10e268152b8, type: 2}
+  rightCard: {fileID: 11400000, guid: cd0de88732db5e1479d2b10e268152b8, type: 2}
+  textGlossary: .

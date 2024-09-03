@@ -19,6 +19,6 @@ MonoBehaviour:
     Perlman."
   leftQuote: 
   rightQuote: 
-  leftCard: {fileID: 0}
-  rightCard: {fileID: 0}
-  textGlossary: 
+  leftCard: {fileID: 11400000, guid: 60b256659d1dbba4e97bb9b2fe41af09, type: 2}
+  rightCard: {fileID: 11400000, guid: 60b256659d1dbba4e97bb9b2fe41af09, type: 2}
+  textGlossary: .

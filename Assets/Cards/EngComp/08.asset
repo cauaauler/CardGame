@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: 08
   m_EditorClassIdentifier: 
   textCardOnly: 
-  sprite: 0
+  sprite: 8
   cardName: Radia Perlman
   dialogue: "Finalizamos por aqui, espero que tenham gostado da apresenta\xE7\xE3o.
     Est\xE3o liberados, at\xE9 mais. "
   leftQuote: 
   rightQuote: 
-  leftCard: {fileID: 0}
-  rightCard: {fileID: 0}
-  textGlossary: 
+  leftCard: {fileID: 11400000, guid: cf9626b1f77eea8429036b839a59c140, type: 2}
+  rightCard: {fileID: 11400000, guid: cf9626b1f77eea8429036b839a59c140, type: 2}
+  textGlossary: .

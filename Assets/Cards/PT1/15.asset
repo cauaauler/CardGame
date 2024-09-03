@@ -15,15 +15,11 @@ MonoBehaviour:
   textCardOnly: 
   sprite: 5
   cardName: Apresentadora
-  cardID: 0
   dialogue: "Bom dia alunos, hoje serei a apresentadora dos cursos de computa\xE7\xE3o,
-    vou dar uma explica\xE7\xE3o superficial e depois voc\xEAs podem se dirigir as
+    vou dar uma explica\xE7\xE3o abrangente e depois voc\xEAs podem se dirigir as
     salas separadas para cada forma\xE7\xE3o."
   leftQuote: 
   rightQuote: 
   leftCard: {fileID: 11400000, guid: 2ce579f27acbe584297e98c9d147aaab, type: 2}
   rightCard: {fileID: 11400000, guid: 2ce579f27acbe584297e98c9d147aaab, type: 2}
-  item: {fileID: 0}
-  itemGapName: 
-  labyrinthName: 
-  parentCard: {fileID: 11400000, guid: 5e287b50ea627d249b42982679548c24, type: 2}
+  textGlossary: .

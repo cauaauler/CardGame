@@ -16,9 +16,9 @@ MonoBehaviour:
   sprite: 7
   cardName: 
   dialogue: "Essa implic\xE2ncia com medicina me incomoda um pouco, acaba sendo muita
-    press\xE3o em cima de mim. N\xE3o sei se quero seguir o caminho dos meus pais. "
+    press\xE3o em cima de mim. N\xE3o sei se quero seguir o caminho dos meus pais."
   leftQuote: 
   rightQuote: 
   leftCard: {fileID: 11400000, guid: 136312194c79592478c888942805c757, type: 2}
   rightCard: {fileID: 11400000, guid: 136312194c79592478c888942805c757, type: 2}
-  textGlossary: 
+  textGlossary: .

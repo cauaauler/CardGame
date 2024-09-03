@@ -16,9 +16,9 @@ MonoBehaviour:
   sprite: 2
   cardName: "M\xE3e"
   dialogue: "J\xE1 consigo ver voc\xEA se formando na faculdade e abrindo sua pr\xF3pria
-    cl\xEDnica, fico at\xE9 emocionada "
+    cl\xEDnica, fico at\xE9 emocionada!"
   leftQuote: "Legal, m\xE3e"
   rightQuote: Estou atrasada, tchau
   leftCard: {fileID: 11400000, guid: ca627270ba6799040b34fabb23ee5271, type: 2}
   rightCard: {fileID: 11400000, guid: ca627270ba6799040b34fabb23ee5271, type: 2}
-  textGlossary: teste2
+  textGlossary: .

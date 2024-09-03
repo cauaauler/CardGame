@@ -15,15 +15,11 @@ MonoBehaviour:
   textCardOnly: 
   sprite: 5
   cardName: Apresentadora
-  cardID: 0
   dialogue: "Engenharia de Software foca-se na implementa\xE7\xE3o das tecnologias
     criadas, construindo solu\xE7\xF5es usando tecnologias existentes e escrevendo
-    c\xF3digo"
+    c\xF3digo."
   leftQuote: 
   rightQuote: 
   leftCard: {fileID: 11400000, guid: 28becf33dd967c84d8e562567cdddb72, type: 2}
   rightCard: {fileID: 11400000, guid: 28becf33dd967c84d8e562567cdddb72, type: 2}
-  item: {fileID: 0}
-  itemGapName: 
-  labyrinthName: 
-  parentCard: {fileID: 11400000, guid: 2ce579f27acbe584297e98c9d147aaab, type: 2}
+  textGlossary: .

@@ -35,7 +35,10 @@ public enum CardSprite //enum é basicamente um array, como esse está público 
     Rubens,
     Apresentadora,
     Ada,
-    Background
+    Background,
+    Radia,
+    Grace,
+    Margaret
        
 
 }

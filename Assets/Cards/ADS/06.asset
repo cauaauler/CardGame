@@ -13,14 +13,13 @@ MonoBehaviour:
   m_Name: 06
   m_EditorClassIdentifier: 
   textCardOnly: 
-  sprite: 0
+  sprite: 9
   cardName: Grace Hopper
   dialogue: "Algumas disciplinas presentes no curso s\xE3o, <color=red>Computa\xE7\xE3o
-    em Nuvem</color>, Pensamento Computacional, Qualidade de <color=red>Software</color>,
-    T\xE9cnicas de Desenvolvimento de <color=red>Algoritmos</color> e Seguran\xE7a
-    Cibern\xE9tica."
+    em Nuvem</color>, Pensamento Computacional, Qualidade de Software, T\xE9cnicas
+    de Desenvolvimento de Algoritmos e Seguran\xE7a Cibern\xE9tica."
   leftQuote: 
   rightQuote: 
   leftCard: {fileID: 11400000, guid: 5132d5b428f688543b3527cb5cbeac0e, type: 2}
   rightCard: {fileID: 11400000, guid: 5132d5b428f688543b3527cb5cbeac0e, type: 2}
-  textGlossary: 
+  textGlossary: .

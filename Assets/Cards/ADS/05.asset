@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 05
   m_EditorClassIdentifier: 
   textCardOnly: .
-  sprite: 0
+  sprite: 9
   cardName: Grace Hopper
   dialogue: "Abrange t\xF3picos que incluem a compreens\xE3o de linguagens de programa\xE7\xE3o
     populares, <color=red>banco de dados</color>, <color=red>desenvolvimento web</color>,
@@ -22,4 +22,4 @@ MonoBehaviour:
   rightQuote: 
   leftCard: {fileID: 11400000, guid: 5cd5002d92624f14a91724039069f6b9, type: 2}
   rightCard: {fileID: 11400000, guid: 5cd5002d92624f14a91724039069f6b9, type: 2}
-  textGlossary: 
+  textGlossary: .

@@ -21,4 +21,4 @@ MonoBehaviour:
   rightQuote: Uau, um holograma
   leftCard: {fileID: 11400000, guid: 08b5ee9ef6bad39438be1919de578e35, type: 2}
   rightCard: {fileID: 11400000, guid: 08b5ee9ef6bad39438be1919de578e35, type: 2}
-  textGlossary: 
+  textGlossary: .

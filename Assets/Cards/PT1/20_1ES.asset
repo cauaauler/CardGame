@@ -20,4 +20,4 @@ MonoBehaviour:
   rightQuote: "N\xE3o"
   leftCard: {fileID: 11400000, guid: 630a9591a5f0d1a40962e265bbf8d2a6, type: 2}
   rightCard: {fileID: 11400000, guid: 2fbc6ebb53da08042a0cac3991bd4ca8, type: 2}
-  textGlossary: 
+  textGlossary: .

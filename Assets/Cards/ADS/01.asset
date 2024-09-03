@@ -16,9 +16,9 @@ MonoBehaviour:
   sprite: 5
   cardName: Apresentadora
   dialogue: "Quem vai apresentar o curso de Analise e Desenvolvimento de Sistemas
-    \xE9 Grace Hopper"
+    \xE9 Grace Hopper."
   leftQuote: 
   rightQuote: 
   leftCard: {fileID: 11400000, guid: 53b4c3033dcb94044a8932a1220caf68, type: 2}
   rightCard: {fileID: 11400000, guid: 53b4c3033dcb94044a8932a1220caf68, type: 2}
-  textGlossary: 
+  textGlossary: .

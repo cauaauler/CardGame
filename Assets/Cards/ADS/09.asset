@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: 09
   m_EditorClassIdentifier: 
   textCardOnly: 
-  sprite: 0
+  sprite: 9
   cardName: Grace Hopper
   dialogue: "Foi um prazer receber todos aqui, espero que tenham gostado da apresenta\xE7\xE3o,
-    muito obrigado pela aten\xE7\xE3o de todos"
+    muito obrigado pela aten\xE7\xE3o de todos."
   leftQuote: 
   rightQuote: 
   leftCard: {fileID: 11400000, guid: 99031aae48e2ef940a3ce9495005e7eb, type: 2}
   rightCard: {fileID: 11400000, guid: 99031aae48e2ef940a3ce9495005e7eb, type: 2}
-  textGlossary: 
+  textGlossary: .

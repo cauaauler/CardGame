@@ -23,4 +23,4 @@ MonoBehaviour:
   rightQuote: 
   leftCard: {fileID: 11400000, guid: b927ae454c7818a43a1d66cd034e2ae7, type: 2}
   rightCard: {fileID: 11400000, guid: b927ae454c7818a43a1d66cd034e2ae7, type: 2}
-  textGlossary: 
+  textGlossary: .

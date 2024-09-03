@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: 08
   m_EditorClassIdentifier: 
   textCardOnly: 
-  sprite: 0
+  sprite: 9
   cardName: Grace Hopper
-  dialogue: " Os formados podem trabalhar como analistas de sistemas, programadores,
+  dialogue: "Os formados podem trabalhar como analistas de sistemas, programadores,
     desenvolvedores web, arquitetos de software, entre outros pap\xE9is relacionados."
   leftQuote: 
   rightQuote: 
   leftCard: {fileID: 11400000, guid: 893ed572d4def9046840ee65c7968de5, type: 2}
   rightCard: {fileID: 11400000, guid: 893ed572d4def9046840ee65c7968de5, type: 2}
-  textGlossary: 
+  textGlossary: .

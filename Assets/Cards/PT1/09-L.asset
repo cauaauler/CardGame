@@ -15,13 +15,9 @@ MonoBehaviour:
   textCardOnly: 
   sprite: 3
   cardName: "L\xFAcia"
-  cardID: 0
-  dialogue: "Voc\xEA disse para mim escolher o curso, voc\xEA vem comigo"
+  dialogue: "Voc\xEA disse para mim escolher o curso, voc\xEA vem comigo!"
   leftQuote: ...
   rightQuote: ...
   leftCard: {fileID: 11400000, guid: ff75480b42177484e9af7613f94e471c, type: 2}
   rightCard: {fileID: 11400000, guid: ff75480b42177484e9af7613f94e471c, type: 2}
-  item: {fileID: 0}
-  itemGapName: 
-  labyrinthName: 
-  parentCard: {fileID: 0}
+  textGlossary: .

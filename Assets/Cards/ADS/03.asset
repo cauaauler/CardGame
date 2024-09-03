@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: 03
   m_EditorClassIdentifier: 
   textCardOnly: 
-  sprite: 0
+  sprite: 9
   cardName: Grace Hopper
   dialogue: "Ol\xE1 estudantes, hoje vou falar um pouco sobre o curso de An\xE1lise
-    e Desenvolvimento de Sistemas"
+    e Desenvolvimento de Sistemas."
   leftQuote: 
   rightQuote: 
   leftCard: {fileID: 11400000, guid: 33c14cc4883096946900f98117bec826, type: 2}
   rightCard: {fileID: 11400000, guid: 33c14cc4883096946900f98117bec826, type: 2}
-  textGlossary: 
+  textGlossary: .

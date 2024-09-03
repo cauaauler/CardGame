@@ -15,14 +15,10 @@ MonoBehaviour:
   textCardOnly: 
   sprite: 3
   cardName: "L\xFAcia"
-  cardID: 0
   dialogue: "J\xE1 parei de ligar para oque os outros dizem, meus pais s\xE3o iguais
     ao Rubens. Vamos indo ?"
   leftQuote: Vamos
   rightQuote: "J\xE1 devem ter come\xE7ado, vamos logo"
   leftCard: {fileID: 11400000, guid: 5e287b50ea627d249b42982679548c24, type: 2}
   rightCard: {fileID: 11400000, guid: 5e287b50ea627d249b42982679548c24, type: 2}
-  item: {fileID: 0}
-  itemGapName: 
-  labyrinthName: 
-  parentCard: {fileID: 11400000, guid: 7c79bd7bc2e27ad4b9e8f9ef52f2e8ea, type: 2}
+  textGlossary: .

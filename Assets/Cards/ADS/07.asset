@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 07
   m_EditorClassIdentifier: 
   textCardOnly: 
-  sprite: 0
+  sprite: 9
   cardName: Grace Hopper
   dialogue: "Tem dura\xE7\xE3o m\xE9dia de 2 a 3 anos, quando ofertado para tecn\xF3logo,
     j\xE1 quando ofertado para bacharel tem dura\xE7\xE3o de 4 anos. "
@@ -21,4 +21,4 @@ MonoBehaviour:
   rightQuote: 
   leftCard: {fileID: 11400000, guid: 43a8d7508585b384aa26d78f0782a37e, type: 2}
   rightCard: {fileID: 11400000, guid: 43a8d7508585b384aa26d78f0782a37e, type: 2}
-  textGlossary: 
+  textGlossary: .

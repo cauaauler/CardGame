@@ -15,15 +15,12 @@ MonoBehaviour:
   textCardOnly: 
   sprite: 5
   cardName: Apresentadora
-  cardID: 0
   dialogue: "Engenharia da Computa\xE7\xE3o \xE9 uma \xE1rea que combina os princ\xEDpios
     da engenharia el\xE9trica e da ci\xEAncia da computa\xE7\xE3o para projetar,
-    desenvolver e gerenciar sistemas computacionais. Foca no hardware e no software."
+    desenvolver e gerenciar sistemas computacionais. Foca no <color=red>hardware</color>
+    e no <color=red>software</color>."
   leftQuote: 
   rightQuote: 
   leftCard: {fileID: 11400000, guid: deed8f2d5a688e14aba722410a43cf26, type: 2}
   rightCard: {fileID: 11400000, guid: deed8f2d5a688e14aba722410a43cf26, type: 2}
-  item: {fileID: 0}
-  itemGapName: 
-  labyrinthName: 
-  parentCard: {fileID: 11400000, guid: 26b8c8c8b936a9b4288e77a8c7970642, type: 2}
+  textGlossary: .

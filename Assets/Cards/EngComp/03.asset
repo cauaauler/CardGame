@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: 03
   m_EditorClassIdentifier: 
   textCardOnly: 
-  sprite: 0
+  sprite: 8
   cardName: Radia Perlman
   dialogue: "Bom dia, me chamo Radia Perlman e hoje vou apresentar o curso de Engenharia
-    da Computa\xE7\xE3o para voc\xEAs"
+    da Computa\xE7\xE3o para voc\xEAs."
   leftQuote: 
   rightQuote: 
-  leftCard: {fileID: 0}
-  rightCard: {fileID: 0}
-  textGlossary: 
+  leftCard: {fileID: 11400000, guid: 31696c90104b1e146af6974cde3e4c57, type: 2}
+  rightCard: {fileID: 11400000, guid: 31696c90104b1e146af6974cde3e4c57, type: 2}
+  textGlossary: .

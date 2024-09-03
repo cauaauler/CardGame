@@ -15,14 +15,10 @@ MonoBehaviour:
   textCardOnly: 
   sprite: 3
   cardName: "L\xFAcia "
-  cardID: 0
   dialogue: "Eles parecem ter usado intelig\xEAncia artificial para recriar a apar\xEAncia,
-    movimenta\xE7\xE3o e voz dela, impressionante "
+    movimenta\xE7\xE3o e voz dela, impressionante."
   leftQuote: "Intelig\xEAncia artificial ? "
   rightQuote: Nunca vi algo assim
   leftCard: {fileID: 11400000, guid: 2271ea6e0d131734cbf047c2b515d1d5, type: 2}
   rightCard: {fileID: 11400000, guid: 7d839b7153006b64da871293b58839c3, type: 2}
-  item: {fileID: 0}
-  itemGapName: 
-  labyrinthName: 
-  parentCard: {fileID: 0}
+  textGlossary: .

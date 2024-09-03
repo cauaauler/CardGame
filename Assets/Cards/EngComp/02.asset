@@ -19,9 +19,9 @@ MonoBehaviour:
     trabalho inovador que ajudou a tornar as redes de computadores mais seguras e
     eficientes. Ela \xE9 mais conhecida por inventar o <color=red> Spanning Tree
     Protocol (STP) </color>, um protocolo crucial para a opera\xE7\xE3o de redes
-    <color=red> ethernet </color>"
+    <color=red>ethernet</color>."
   leftQuote: 
   rightQuote: 
-  leftCard: {fileID: 0}
-  rightCard: {fileID: 0}
-  textGlossary: 
+  leftCard: {fileID: 11400000, guid: f50c171c328e6394599c2418dae17293, type: 2}
+  rightCard: {fileID: 11400000, guid: f50c171c328e6394599c2418dae17293, type: 2}
+  textGlossary: .

@@ -15,14 +15,10 @@ MonoBehaviour:
   textCardOnly: 
   sprite: 3
   cardName: "L\xFAcia"
-  cardID: 0
   dialogue: "Estou pensando nessa possibilidade a algum tempo... n\xE3o acha legal
     ? "
   leftQuote: Nunca pensei nisso
   rightQuote: Legal
   leftCard: {fileID: 11400000, guid: ff75480b42177484e9af7613f94e471c, type: 2}
   rightCard: {fileID: 11400000, guid: ff75480b42177484e9af7613f94e471c, type: 2}
-  item: {fileID: 0}
-  itemGapName: 
-  labyrinthName: 
-  parentCard: {fileID: 11400000, guid: edd05d567ba3e424db2637909abf4e74, type: 2}
+  textGlossary: .

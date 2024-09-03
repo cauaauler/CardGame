@@ -10,14 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eda14a0c07c9a6046bff008d2e9219ce, type: 3}
-  m_Name: 09
+  m_Name: 01
   m_EditorClassIdentifier: 
   textCardOnly: 
-  sprite: 3
-  cardName: "L\xFAcia"
-  dialogue: 
+  sprite: 5
+  cardName: Apresentadora
+  dialogue: "Quem vai fazer a apresenta\xE7\xE3o do curso de Engenharia de Software
+    \xE9 Margaret Hamilton."
   leftQuote: 
   rightQuote: 
-  leftCard: {fileID: 0}
-  rightCard: {fileID: 0}
-  textGlossary: 
+  leftCard: {fileID: 11400000, guid: 7f0e038818969284a9274cb66a048ff7, type: 2}
+  rightCard: {fileID: 11400000, guid: 7f0e038818969284a9274cb66a048ff7, type: 2}
+  textGlossary: .

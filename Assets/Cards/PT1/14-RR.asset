@@ -15,13 +15,9 @@ MonoBehaviour:
   textCardOnly: 
   sprite: 3
   cardName: "L\xFAcia"
-  cardID: 0
   dialogue: Acho que o palestrante vai explicar
   leftQuote: Pode ser
   rightQuote: "Ainda acho que \xE9 tudo igual"
   leftCard: {fileID: 11400000, guid: a933a27ba3a00134e9adc74293958507, type: 2}
   rightCard: {fileID: 11400000, guid: a933a27ba3a00134e9adc74293958507, type: 2}
-  item: {fileID: 0}
-  itemGapName: 
-  labyrinthName: 
-  parentCard: {fileID: 0}
+  textGlossary: .

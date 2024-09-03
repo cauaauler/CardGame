@@ -22,4 +22,6 @@ MonoBehaviour:
   rightQuote: 
   leftCard: {fileID: 11400000, guid: 5132d5b428f688543b3527cb5cbeac0e, type: 2}
   rightCard: {fileID: 11400000, guid: 5132d5b428f688543b3527cb5cbeac0e, type: 2}
-  textGlossary: .
+  textGlossary: "Computa\xE7\xE3o em Nuvem: Um modelo de computa\xE7\xE3o que permite
+    o acesso remoto a recursos de computa\xE7\xE3o, como servidores, armazenamento,
+    e software, atrav\xE9s da internet."

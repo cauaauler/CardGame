@@ -12,13 +12,14 @@ public class Card : ScriptableObject
     public CardSprite sprite;
     public string cardName;
     //public int cardID;
+    [TextArea]
     public string dialogue;
     public string leftQuote;
     public string rightQuote;
-
     public Card leftCard;
     public Card rightCard;
-   //  public Item item;
+    //  public Item item;
+    [TextArea]
     public string textGlossary;
    // public string labyrinthName;
 

@@ -22,4 +22,6 @@ MonoBehaviour:
   rightQuote: 
   leftCard: {fileID: 11400000, guid: 5cd5002d92624f14a91724039069f6b9, type: 2}
   rightCard: {fileID: 11400000, guid: 5cd5002d92624f14a91724039069f6b9, type: 2}
-  textGlossary: .
+  textGlossary: "Banco de Dados: Um sistema organizado para armazenar, gerenciar
+    e recuperar informa\xE7\xF5es.\n\n\nDesenvolvimento Web: O processo de cria\xE7\xE3o
+    e manuten\xE7\xE3o de sites e aplica\xE7\xF5es web."

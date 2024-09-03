@@ -23,4 +23,6 @@ MonoBehaviour:
   rightQuote: 
   leftCard: {fileID: 11400000, guid: a966ce3b20339ef4c910e1b31906f418, type: 2}
   rightCard: {fileID: 11400000, guid: a966ce3b20339ef4c910e1b31906f418, type: 2}
-  textGlossary: .
+  textGlossary: "Intelig\xEAncia Artificial (IA): Um ramo da ci\xEAncia da computa\xE7\xE3o
+    que se preocupa com a cria\xE7\xE3o de sistemas capazes de realizar tarefas que
+    normalmente exigiriam intelig\xEAncia humana."

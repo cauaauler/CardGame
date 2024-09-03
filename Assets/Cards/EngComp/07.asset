@@ -24,4 +24,7 @@ MonoBehaviour:
   rightQuote: 
   leftCard: {fileID: 11400000, guid: ea29b2e200ebcfc409c5e41046aaa33e, type: 2}
   rightCard: {fileID: 11400000, guid: ea29b2e200ebcfc409c5e41046aaa33e, type: 2}
-  textGlossary: .
+  textGlossary: "Sistemas Embarcados: Sistemas computacionais projetados para realizar
+    fun\xE7\xF5es espec\xEDficas, muitas vezes em tempo real, e que est\xE3o embutidos
+    dentro de outros dispositivos, como autom\xF3veis, eletrodom\xE9sticos, sistemas
+    de controle industrial..."

@@ -23,4 +23,6 @@ MonoBehaviour:
   rightQuote: 
   leftCard: {fileID: 11400000, guid: 4e702d307f789bb49a3de1eceb1ad88f, type: 2}
   rightCard: {fileID: 11400000, guid: 4e702d307f789bb49a3de1eceb1ad88f, type: 2}
-  textGlossary: .
+  textGlossary: "M\xE1quina Anal\xEDtica: Um design te\xF3rico de um computador mec\xE2nico
+    proposto por Charles Babbage no s\xE9culo XIX. A M\xE1quina Anal\xEDtica \xE9
+    considerada o primeiro conceito de um computador com prop\xF3sito de uso geral."

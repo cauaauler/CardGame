@@ -17,7 +17,7 @@ MonoBehaviour:
   cardName: "L\xFAcia"
   dialogue: "Vamos olhar outra apresenta\xE7\xE3o ?"
   leftQuote: Claro
-  rightQuote: "T\xF4 de boa "
-  leftCard: {fileID: 11400000, guid: c8fde0d858fcbac4287e0647578b9b53, type: 2}
-  rightCard: {fileID: 11400000, guid: c8fde0d858fcbac4287e0647578b9b53, type: 2}
+  rightQuote: "N\xE3o quero"
+  leftCard: {fileID: 11400000, guid: 2fbc6ebb53da08042a0cac3991bd4ca8, type: 2}
+  rightCard: {fileID: 0}
   textGlossary: .

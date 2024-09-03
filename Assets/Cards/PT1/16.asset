@@ -22,4 +22,7 @@ MonoBehaviour:
   rightQuote: 
   leftCard: {fileID: 11400000, guid: 26b8c8c8b936a9b4288e77a8c7970642, type: 2}
   rightCard: {fileID: 11400000, guid: 26b8c8c8b936a9b4288e77a8c7970642, type: 2}
-  textGlossary: .
+  textGlossary: "Algoritmo: Um conjunto finito de instru\xE7\xF5es ou passos que
+    descrevem como realizar uma tarefa espec\xEDfica. Algoritmos s\xE3o fundamentais
+    para a programa\xE7\xE3o, pois definem a l\xF3gica de como um problema ser\xE1
+    resolvido."

@@ -15,7 +15,7 @@ MonoBehaviour:
   textCardOnly: 
   sprite: 3
   cardName: "L\xFAcia"
-  dialogue: "Come\xE7amos por Engenharia de Software ?"
+  dialogue: Engenharia de Software ?
   leftQuote: Sim
   rightQuote: "N\xE3o"
   leftCard: {fileID: 11400000, guid: 630a9591a5f0d1a40962e265bbf8d2a6, type: 2}

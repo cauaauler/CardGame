@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda14a0c07c9a6046bff008d2e9219ce, type: 3}
+  m_Name: 02_
+  m_EditorClassIdentifier: 
+  textCardOnly: 
+  sprite: 3
+  cardName: "L\xFAcia"
+  dialogue: "Fico muito feliz que tivemos a mesma decis\xE3o, pode ser que nos encontremos
+    na mesma turma de faculdade. Agora preciso ir para minha aula, ela vai come\xE7ar
+    daqui a pouco, at\xE9 amanh\xE3"
+  leftQuote: Tchau
+  rightQuote: "At\xE9 mais"
+  leftCard: {fileID: 11400000, guid: 68b33bae29cc24144aed7e0eefda86fa, type: 2}
+  rightCard: {fileID: 11400000, guid: 68b33bae29cc24144aed7e0eefda86fa, type: 2}
+  textGlossary: .

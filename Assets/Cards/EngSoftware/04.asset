@@ -22,4 +22,7 @@ MonoBehaviour:
   rightQuote: 
   leftCard: {fileID: 11400000, guid: cd0de88732db5e1479d2b10e268152b8, type: 2}
   rightCard: {fileID: 11400000, guid: cd0de88732db5e1479d2b10e268152b8, type: 2}
-  textGlossary: .
+  textGlossary: "Desenvolvimento \xC1gil: Um conjunto de pr\xE1ticas de desenvolvimento
+    de software que enfatiza a entrega r\xE1pida e cont\xEDnua de software funcional,
+    a colabora\xE7\xE3o pr\xF3xima com o cliente e a capacidade de resposta \xE0s
+    mudan\xE7as."

@@ -23,5 +23,6 @@ MonoBehaviour:
   leftCard: {fileID: 11400000, guid: 9effff61cb0f1eb48a273d1c2b10c0d4, type: 2}
   rightCard: {fileID: 11400000, guid: 9effff61cb0f1eb48a273d1c2b10c0d4, type: 2}
   textGlossary: "Compilador: Um programa que traduz c\xF3digo-fonte escrito em uma
-    linguagem de programa\xE7\xE3o para c\xF3digo que a m\xE1quina possa entender.
-    </br>"
+    linguagem de programa\xE7\xE3o para c\xF3digo que a m\xE1quina possa entender.\n\n\nBug:
+    Um erro ou falha em um programa de computador que faz com que ele se comporte
+    de maneira inesperada ou incorreta."

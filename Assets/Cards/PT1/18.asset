@@ -18,9 +18,15 @@ MonoBehaviour:
   dialogue: "Engenharia da Computa\xE7\xE3o \xE9 uma \xE1rea que combina os princ\xEDpios
     da engenharia el\xE9trica e da ci\xEAncia da computa\xE7\xE3o para projetar,
     desenvolver e gerenciar sistemas computacionais. Foca no <color=red>hardware</color>
-    e no <color=red>software</color>."
+    e no <color=red>software</color>.\n"
   leftQuote: 
   rightQuote: 
   leftCard: {fileID: 11400000, guid: deed8f2d5a688e14aba722410a43cf26, type: 2}
   rightCard: {fileID: 11400000, guid: deed8f2d5a688e14aba722410a43cf26, type: 2}
-  textGlossary: .
+  textGlossary: "Software: Conjunto de programas, procedimentos e documenta\xE7\xE3o
+    associados ao funcionamento de um sistema de computador. O software inclui tanto
+    sistemas operacionais quanto aplicativos espec\xEDficos que permitem a execu\xE7\xE3o
+    de tarefas espec\xEDficas no computador.\n\n\r\nHardware: Refere-se aos componentes
+    f\xEDsicos de um sistema de computador, como a CPU, mem\xF3ria, dispositivos
+    de armazenamento, perif\xE9ricos de entrada e sa\xEDda, etc. \xC9 tudo aquilo
+    que se pode tocar e ver em um computador."

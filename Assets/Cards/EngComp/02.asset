@@ -24,4 +24,8 @@ MonoBehaviour:
   rightQuote: 
   leftCard: {fileID: 11400000, guid: f50c171c328e6394599c2418dae17293, type: 2}
   rightCard: {fileID: 11400000, guid: f50c171c328e6394599c2418dae17293, type: 2}
-  textGlossary: .
+  textGlossary: "Spanning Tree Protocol (STP): Um protocolo de rede que garante uma
+    topologia de rede sem loops em redes Ethernet.\n\n\nEthernet: Uma tecnologia
+    amplamente utilizada para redes locais (LANs). Ethernet define protocolos e padr\xF5es
+    para conectar dispositivos em uma rede, permitindo a comunica\xE7\xE3o e a troca
+    de dados em alta velocidade.\n"

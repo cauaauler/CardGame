@@ -26,7 +26,7 @@ MonoBehaviour:
   textGlossary: "Software: Conjunto de programas, procedimentos e documenta\xE7\xE3o
     associados ao funcionamento de um sistema de computador. O software inclui tanto
     sistemas operacionais quanto aplicativos espec\xEDficos que permitem a execu\xE7\xE3o
-    de tarefas espec\xEDficas no computador.\n\n\r\nHardware: Refere-se aos componentes
+    de tarefas espec\xEDficas no computador.\n\nHardware: Refere-se aos componentes
     f\xEDsicos de um sistema de computador, como a CPU, mem\xF3ria, dispositivos
     de armazenamento, perif\xE9ricos de entrada e sa\xEDda, etc. \xC9 tudo aquilo
     que se pode tocar e ver em um computador."

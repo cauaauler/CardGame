@@ -19,5 +19,5 @@ MonoBehaviour:
   leftQuote: Sim
   rightQuote: "N\xE3o"
   leftCard: {fileID: 11400000, guid: a94d434801775f54b97455969d61dcef, type: 2}
-  rightCard: {fileID: 0}
+  rightCard: {fileID: 11400000, guid: c72fb65bb42368942896a955ccb683f6, type: 2}
   textGlossary: .

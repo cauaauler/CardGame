@@ -156,6 +156,7 @@ public class GameManager : MonoBehaviour
         if (card.textGlossary != ".")
         {
             textGlossaryObject.text += card.textGlossary + "\n\n";
+            card.textGlossary = ".";
         }
 
         //Atribuindo as variáveis para o objeto

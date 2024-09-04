@@ -24,7 +24,7 @@ MonoBehaviour:
   leftCard: {fileID: 11400000, guid: a2a17eedea06c3a488077bfb54ead746, type: 2}
   rightCard: {fileID: 11400000, guid: a2a17eedea06c3a488077bfb54ead746, type: 2}
   textGlossary: "Linguagem de baixo n\xEDvel: Linguagens de programa\xE7\xE3o pr\xF3ximas
-    \xE0 linguagem de m\xE1quina.\n\n\nLinguagem de m\xE9dio n\xEDvel: Uma classifica\xE7\xE3o
-    menos comum, onde as linguagens combinam caracter\xEDsticas de alto e baixo n\xEDvel.\n\n\nLinguagem
+    \xE0 linguagem de m\xE1quina.\n\nLinguagem de m\xE9dio n\xEDvel: Uma classifica\xE7\xE3o
+    menos comum, onde as linguagens combinam caracter\xEDsticas de alto e baixo n\xEDvel.\n\nLinguagem
     de alto n\xEDvel: Linguagens que abstraem detalhes da m\xE1quina e s\xE3o mais
     pr\xF3ximas da linguagem humana."

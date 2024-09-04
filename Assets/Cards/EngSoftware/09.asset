@@ -19,5 +19,5 @@ MonoBehaviour:
   leftQuote: Claro
   rightQuote: "N\xE3o quero"
   leftCard: {fileID: 11400000, guid: 2fbc6ebb53da08042a0cac3991bd4ca8, type: 2}
-  rightCard: {fileID: 0}
+  rightCard: {fileID: 11400000, guid: c72fb65bb42368942896a955ccb683f6, type: 2}
   textGlossary: .

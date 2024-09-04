@@ -18,6 +18,6 @@ MonoBehaviour:
   dialogue: "Acho que esse vai ser meu preferido. Mas oque voc\xEA acha ?"
   leftQuote: Gostei
   rightQuote: "N\xE3o Gostei"
-  leftCard: {fileID: 11400000, guid: c8fde0d858fcbac4287e0647578b9b53, type: 2}
-  rightCard: {fileID: 11400000, guid: c8fde0d858fcbac4287e0647578b9b53, type: 2}
+  leftCard: {fileID: 11400000, guid: 5ceb7767d31a0af44878e7222149a93b, type: 2}
+  rightCard: {fileID: 11400000, guid: 5ceb7767d31a0af44878e7222149a93b, type: 2}
   textGlossary: .

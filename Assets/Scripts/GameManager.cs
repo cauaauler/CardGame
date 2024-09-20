@@ -168,7 +168,7 @@ public class GameManager : MonoBehaviour
         RectTransform rectTransform = characterDialogue.GetComponent<RectTransform>();
         if (currentCard.textCardOnly == ".")
         {
-            rectTransform.sizeDelta = new Vector2(107, rectTransform.sizeDelta.y);
+            rectTransform.sizeDelta = new Vector2(100, rectTransform.sizeDelta.y);
             rectTransform.anchoredPosition = new Vector2(-3.8f, rectTransform.anchoredPosition.y);
             characterDialogue.alignment = TextAlignmentOptions.Top;
 
@@ -177,8 +177,8 @@ public class GameManager : MonoBehaviour
         //Se tiver alguma pessoa respondendo volta para o normal
         else
         {
-            rectTransform.sizeDelta = new Vector2(87, rectTransform.sizeDelta.y);
-            rectTransform.anchoredPosition = new Vector2(-1.2f, rectTransform.anchoredPosition.y);
+            rectTransform.sizeDelta = new Vector2(80, rectTransform.sizeDelta.y);
+            rectTransform.anchoredPosition = new Vector2(-1.70f, rectTransform.anchoredPosition.y);
             characterDialogue.alignment = TextAlignmentOptions.TopLeft;
 
         }

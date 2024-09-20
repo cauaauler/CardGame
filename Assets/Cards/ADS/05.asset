@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eda14a0c07c9a6046bff008d2e9219ce, type: 3}
   m_Name: 05
   m_EditorClassIdentifier: 
-  textCardOnly: .
+  textCardOnly: 
   sprite: 9
   cardName: Grace Hopper
   dialogue: "Abrange t\xF3picos que incluem a compreens\xE3o de linguagens de programa\xE7\xE3o
@@ -22,6 +22,4 @@ MonoBehaviour:
   rightQuote: 
   leftCard: {fileID: 11400000, guid: 5cd5002d92624f14a91724039069f6b9, type: 2}
   rightCard: {fileID: 11400000, guid: 5cd5002d92624f14a91724039069f6b9, type: 2}
-  textGlossary: "Banco de Dados: Um sistema organizado para armazenar, gerenciar
-    e recuperar informa\xE7\xF5es.\n\nDesenvolvimento Web: O processo de cria\xE7\xE3o
-    e manuten\xE7\xE3o de sites e aplica\xE7\xF5es web."
+  textGlossary: .
